@@ -72,6 +72,7 @@
                         <outlet property="emailTextField" destination="R1v-Wo-kpt" id="eFo-ih-cEz"/>
                         <outlet property="passwordTextField" destination="hcj-Ne-d4l" id="PMW-Oa-pdj"/>
                         <outlet property="phoneTextField" destination="lhq-FY-FGL" id="EyZ-rO-CTT"/>
+                        <segue destination="MiI-Pg-3d1" kind="show" identifier="DriverVC" id="V7h-K8-EZ2"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -128,7 +129,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rvp-RP-wAb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="560.79999999999995" y="137.18140929535232"/>
+            <point key="canvasLocation" x="732" y="137"/>
         </scene>
     </scenes>
 </document>
