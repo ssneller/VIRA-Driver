@@ -27,10 +27,12 @@ class SignInVC: UIViewController {
         
         if emailTextField.text != "" && passwordTextField.text != "" {
             
+             print(self.emailTextField.text)
+            
             AuthProvider.Instance.login(withEmail: emailTextField.text!, password: passwordTextField.text!, loginHandler: { (message) in
                 
                 
-                print(self.emailTextField.text)
+       //         print(self.emailTextField.text)
                 
                 if message != nil {
                     self.alertTheUser(title: "Problem With Authentication", message: message!);

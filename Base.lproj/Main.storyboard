@@ -17,7 +17,7 @@
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" customClass="Si">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" userLabel="View">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -72,7 +72,6 @@
                         <outlet property="emailTextField" destination="R1v-Wo-kpt" id="eFo-ih-cEz"/>
                         <outlet property="passwordTextField" destination="hcj-Ne-d4l" id="PMW-Oa-pdj"/>
                         <outlet property="phoneTextField" destination="lhq-FY-FGL" id="EyZ-rO-CTT"/>
-                        <segue destination="MiI-Pg-3d1" kind="show" identifier="DriverVC" id="V7h-K8-EZ2"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
